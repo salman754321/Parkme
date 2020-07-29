@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="-84dp">
+        tools:layout_editor_absoluteY="-64dp">
 
 
         <TextView
@@ -172,23 +172,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/availability_status" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/back1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="590dp"
-            android:background="@drawable/button_curved"
-            android:fontFamily="@font/noto_sans"
-            android:padding="15dp"
-            android:text="@string/back"
-            android:textColor="@color/white"
-            android:textSize="14sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.43"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_av_slots"
-            app:layout_constraintVertical_bias="0.0" />
+
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/nine"

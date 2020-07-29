@@ -84,7 +84,7 @@ public class SignUpActivity extends AppCompatActivity {
                     hashMap.put( "UserName",unam.toLowerCase() );
                     hashMap.put("Mobile",mobil);
                     hashMap.put("Email",email);
-                    hashMap.put("Slot",0);
+                    hashMap.put("slot",0);
                     ;
                     reference.setValue( hashMap ).addOnCompleteListener( new OnCompleteListener<Void>() {
                         @Override
