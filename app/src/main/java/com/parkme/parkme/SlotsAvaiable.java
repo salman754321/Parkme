@@ -78,6 +78,7 @@ public class SlotsAvaiable extends AppCompatActivity {
                         if (hashMap.get("one")) {
                             reference.child("one").setValue(false);
                             ure.child("slot").setValue(1);
+                            ure.child("Area").setValue(Are);
                             Toast.makeText(SlotsAvaiable.this,"Slot 1 Booked Successfully",Toast.LENGTH_LONG).show();
                             startActivity(new Intent(SlotsAvaiable.this,HomeActivity.class));
 
@@ -96,6 +97,7 @@ public class SlotsAvaiable extends AppCompatActivity {
                 if(hashMap.get("two")){
                     reference.child("two").setValue(false);
                     ure.child("slot").setValue(2);
+                    ure.child("Area").setValue(Are);
                     Toast.makeText(SlotsAvaiable.this,"Slot 2 Booked Successfully",Toast.LENGTH_LONG).show();
                     startActivity(new Intent(SlotsAvaiable.this,HomeActivity.class));
 
@@ -115,6 +117,7 @@ public class SlotsAvaiable extends AppCompatActivity {
                 if(hashMap.get("three")){
                     reference.child("three").setValue(false);
                     ure.child("slot").setValue(3);
+                    ure.child("Area").setValue(Are);
                     Toast.makeText(SlotsAvaiable.this,"Slot 3 Booked Successfully",Toast.LENGTH_LONG).show();
                     startActivity(new Intent(SlotsAvaiable.this,HomeActivity.class));
                 }else{
@@ -133,6 +136,7 @@ public class SlotsAvaiable extends AppCompatActivity {
                 if(hashMap.get("four")){
                     reference.child("four").setValue(false);
                     ure.child("slot").setValue(4);
+                    ure.child("Area").setValue(Are);
                     Toast.makeText(SlotsAvaiable.this,"Slot 4 Booked Successfully",Toast.LENGTH_LONG).show();
                     startActivity(new Intent(SlotsAvaiable.this,HomeActivity.class));
                 }else{
@@ -151,6 +155,7 @@ public class SlotsAvaiable extends AppCompatActivity {
                 if(hashMap.get("five")){
                     reference.child("five").setValue(false);
                     ure.child("slot").setValue(5);
+                    ure.child("Area").setValue(Are);
                     Toast.makeText(SlotsAvaiable.this,"Slot 5 Booked Successfully",Toast.LENGTH_LONG).show();
                     startActivity(new Intent(SlotsAvaiable.this,HomeActivity.class));
                 }else{
@@ -169,6 +174,7 @@ public class SlotsAvaiable extends AppCompatActivity {
                 if(hashMap.get("six")){
                     reference.child("six").setValue(false);
                     ure.child("slot").setValue(6);
+                    ure.child("Area").setValue(Are);
                     Toast.makeText(SlotsAvaiable.this,"Slot 6 Booked Successfully",Toast.LENGTH_LONG).show();
                     startActivity(new Intent(SlotsAvaiable.this,HomeActivity.class));
                 }else{
@@ -187,6 +193,7 @@ public class SlotsAvaiable extends AppCompatActivity {
                 if(hashMap.get("seven")){
                     reference.child("seven").setValue(false);
                     ure.child("slot").setValue(7);
+                    ure.child("Area").setValue(Are);
                     Toast.makeText(SlotsAvaiable.this,"Slot 7 Booked Successfully",Toast.LENGTH_LONG).show();
                     startActivity(new Intent(SlotsAvaiable.this,HomeActivity.class));
                 }else{
@@ -205,6 +212,7 @@ public class SlotsAvaiable extends AppCompatActivity {
                 if(hashMap.get("eight")){
                     reference.child("eight").setValue(false);
                     ure.child("slot").setValue(8);
+                    ure.child("Area").setValue(Are);
                     Toast.makeText(SlotsAvaiable.this,"Slot 8 Booked Successfully",Toast.LENGTH_LONG).show();
                     startActivity(new Intent(SlotsAvaiable.this,HomeActivity.class));
                 }else{
@@ -222,6 +230,7 @@ public class SlotsAvaiable extends AppCompatActivity {
                 if(hashMap.get("nine")){
                     reference.child("nine").setValue(false);
                     ure.child("slot").setValue(9);
+                    ure.child("Area").setValue(Are);
                     Toast.makeText(SlotsAvaiable.this,"Slot 9 Booked Successfully",Toast.LENGTH_LONG).show();
                     startActivity(new Intent(SlotsAvaiable.this,HomeActivity.class));
                 }else{
@@ -239,6 +248,7 @@ public class SlotsAvaiable extends AppCompatActivity {
                 if(hashMap.get("ten")){
                     reference.child("ten").setValue(false);
                     ure.child("slot").setValue(10);
+                    ure.child("Area").setValue(Are);
                     Toast.makeText(SlotsAvaiable.this,"Slot 10 Booked Successfully",Toast.LENGTH_LONG).show();
                     startActivity(new Intent(SlotsAvaiable.this,HomeActivity.class));
                 }else{
