@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ParkMe</string>
+    <string name="app_name">Smart parking system</string>
     <string name="user_id">USER ID</string>
     <string name="user_name">USER NAME</string>
     <string name="email">EMAIL</string>
